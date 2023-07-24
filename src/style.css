@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+}
+#faixa {
+    width: 100%;
+    height: 5px;
+}
+#titulo {
+    padding: 20px;
+    border-bottom: 5px solid black;
+}
+#container {
+    background-color: rgb(255,198,0);
+    border-radius: 15px;
+    padding: 30px;
+}
+.divDados {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#botao {
+    width: 90%;
+    background-color:chocolate;
+    border: 0px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#res {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+}
